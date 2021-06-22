@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>Фундаменты</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body>
+    <header class="header position-fixed w-100">
+        <div class="position-relative">
+            <div class="container">
+                <div class="header__inner d-none d-lg-flex justify-content-lg-between align-items-lg-center">
+                    <a href="#" class="header__logo logo">
+                        <img src="icons/logo.png" alt="logo" class="logo__img">
+                    </a>
+                    <div class="header__text">
+                        <p>
+                            Фундамент для малоэтажного строительства
+                            со сроком службы более 150 лет
+                        </p>
+                    </div>
+                    <div class="detector">
+                        <div class="detector__led detector__led--active"></div>
+                        <span class="detector__text">сейчас работаем</span>
+                    </div>
+                    <div class="phone">
+                        <a href="tel:80000000000">8 (000) 000-00-00</a>
+                    </div>
+                    <button data-src="#request" data-fancybox class="btn callback popup header__btn">
+                        Заказать звонок
+                    </button>
+                </div>
+
+                <div
+                    class="header__inner header__inner-mobile d-flex d-lg-none justify-content-between align-items-center">
+                    <a href="#" class="header__logo logo">
+                        <img src="icons/logo.png" alt="logo" class="logo__img">
+                    </a>
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="line d-block d-md-none"></div>
+                    <div class="phone">
+                        <a href="tel:80000000000">8 (000) 000-00-00</a>
+                    </div>
+                    <button data-src="#request" data-fancybox class="btn callback popup header__btn">
+                        Заказать звонок
+                    </button>
+                </div>
+                <nav class="header__menu">
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a href="#whatis" class="menu__link">
+                                Что такое забивые сваи
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#advantages" class="menu__link">
+                                Преимущества
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#equation" class="menu__link">
+                                Сравнение с другими видами
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#portfolio" class="menu__link">
+                                Примеры работ и цены
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#steps" class="menu__link">
+                                Этапы работ
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#media" class="menu__link">
+                                Фото и видео
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#company" class="menu__link">
+                                О компании
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#contacts" class="menu__link">
+                                Контакты
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+<section class="promo">
+    <div class="promo__inner">
+        <div class="promo-desktop__bg d-none d-lg-flex position-absolute z-index-0">
+            <div class="promo-desktop__bg--block"></div>
+            <div class="promo-desktop__bg--block promo__img position-relative">
+                <picture>
+                    <source media="(max-width:1500px)" srcset="img/promo/house-750.jpg">
+                    <source media="(max-width:1200px)" srcset="img/promo/house-495.jpg">
+                    <source media="(max-width:480px)" srcset="img/promo/house-h325.jpg">
+                    <img src="img/promo/house.jpg" alt="house">
+                </picture>
+                
+            </div>
+        </div>
+        <div class="container d-flex">
+            <div class="promo__content">
+                <p class="promo__suptitle">Хотите надежный фундамент с гарантией по договору и неограниченным сроком
+                службы?</p>
+                <h1 class="promo__title">Забивные
+                    сваи за 2 дня</h1>
+                <div class="promo__price">
+                    от <del><span>6000</span></del> 
+                    <span class="promo__price-custom">3500</span>
+                    руб./шт.
+                </div>
+
+                <p class="promo__text text">Узнайте, подойдет ли вам свайный фундамент</p>
+                <div class="d-flex justify-content-between promo__links align-items-xl-center">
+                    <button class="btn btn-big promo__btn">подойдет ли мне?</button>
+                    <a href="#equation" class="promo__link">
+                        Сравнение фундаментов
+                        <svg class="promo__link-arrow">
+                            <use xlink:href="#arrow-link"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <picture class='promo__img d-flex d-lg-none'>
+            <source media="(max-width:1500px)" srcset="img/promo/house-750.jpg">
+            <source media="(max-width:1200px)" srcset="img/promo/house-495.jpg">
+            <img src="img/promo/house.jpg" alt="house">
+        </picture>
+    </div>
+</section>
+<section class="pile">
+    <div class="container">
+        <div class="title pile__title">Что такое забивные сваи?</div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="pile-slider">
+                    <div>
+                        <img src="img/pile/pile-1.png" alt="забивные сваи" class="pile__img">
+                    </div>
+                    <div>
+                        <img src="img/pile/pile-1.png" alt="забивные сваи" class="pile__img">
+                    </div>
+                    <div>
+                        <img src="img/pile/pile-1.png" alt="забивные сваи" class="pile__img">
+                    </div>
+                    <div>
+                        <img src="img/pile/pile-1.png" alt="забивные сваи" class="pile__img">
+                    </div>
+                    <div>
+                        <img src="img/pile/pile-1.png" alt="забивные сваи" class="pile__img">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="pile__descr">
+                    Забивные сваи выполняются из высокопрочного бетона и имеют стержень в форме квадрата с одной
+                    стороны, а с другой стороны заострённый конец (но некоторые производители выпускают сваи с тупым
+                    концом). Для того чтобы осуществить погружение свай в землю используют ударную силу в виде молота,
+                    который приводится в действие с помощью специальной техники. Забивной свайный фундамент имеет
+                    отличные технические характеристики, в частности с его помощью обеспечивается надёжность конструкции
+                    и её устойчивость на протяжении длительного периода времени. Такой фундамент имеет большую несущую
+                    способность, что обеспечивает максимальную прочность возводимой конструкции.
+                </div>
+                <div class="row list">
+                    <div class="col-3">
+                        <div class="item">
+                            <img src="img/pile/list/home.png" alt="" class="item__img">
+                            <p>Для частного дома или бани из любых материалов</p>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="item">
+                            <img src="img/pile/list/garage.png" alt="" class="item__img">
+                            <p>Для хозяйственных построек, гаражей и ангаров</p>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="item">
+                            <img src="img/pile/list/veranda.png" alt="" class="item__img">
+                            <p>Для крыльца, веранды, террасы или беседки</p>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="item">
+                            <img src="img/pile/list/factory.png" alt="" class="item__img">
+                            <p>Для производственных зданий и складов</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        </main>
+        <footer class="footer">
+            
+        </footer>
+        <svg width="0" height="0" class="hidden">
+            <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 16" id="arrow-link">
+                <path
+                    d="M21.707 8.707a1 1 0 000-1.414L15.343.929a1 1 0 10-1.414 1.414L19.586 8l-5.657 5.657a1 1 0 001.414 1.414l6.364-6.364zM0 9h21V7H0v2z"
+                    fill="#fff"></path>
+            </symbol>
+        </svg>
+        <div style="display: none;">
+            <form action="" class="form form-popup form-request" action="#" id="request">
+                <h3 class="form__title text-center">
+                    Оставить заявку
+                </h3>
+                <p class="form__subtitle text-center">Оставьте номер телефона и мы вам перезвоним</p>
+                <div class="form__inputs-row form__inputs-col">
+                    <input type="tel" name="tel" id="tel" class="form-input form__input-text form__input-big">
+                    <input type="submit" value="Заказать звонок" class="btn form-input form__input-big form__input-btn">
+                </div>
+            </form>
+        </div>
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <script src="js/libs.min.js"></script>
+        <script src="js/all.min.js"></script>
+    </body>
+</html>
