@@ -1,0 +1,30 @@
+.quiz-slider .slick-slide {
+    min-height: 300px;
+}
+.quiz-slider .slick-slide img{
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .quiz-slider {
+        display: none;
+    }
+}
+
+button:disabled,
+.btn:disabled,
+.btn-big:disabled {
+    background: linear-gradient(180deg, #ff8e69, #ffbb59);
+}
+
+/*15.07.21*/
+.form__message {
+    display: none;
+    margin-bottom: 5px;
+}
+.form__message--success {
+    color: #16a600;
+}
+.form__message--error {
+    color: #eb1338;
+}
